@@ -48,9 +48,11 @@
 					Design Decision 1: I chose to transform the data and plot the sum of the number of abortions by state of occurence divided by the sum of the number of abortions by state of residence.
 
 					<br>
+					<br>
 
-					Score: 1.5
+					Score: 1
 
+					<br>
 					<br>
 					Design Rationale: Initially, when analyzing metrics like the total number of abortions or different levels, it was clear that California had the highest abortion numbers by a significant margin compared to other states. In graphics, California often dominated the view, overshadowing insights about other states due to its sheer volume in population and number of abortions.
 
@@ -69,9 +71,11 @@
 					Design Decision 2: I chose to include an "average" line which represented the average ratio of abortions from out of state vs in state residents
 
 					<br>
+					<br>
 
-					Score: 2
+					Score: 1.5
 
+					<br>
 					<br>
 					Design Rationale: I wanted to include a metric that would allow viewers to easily compare Kansas's data.
 					It is clear from the ordering of the bar graph that Kansas has the highest ratio of out of state residents who come to get an abortion, but the extent to which this is true is difficult to gauge without a comparison metric.
@@ -83,9 +87,11 @@
 					Design Decision 3: I chose to display the data as an ordered bar chart
 
 					<br>
+					<br>
 
-					Score: 1.5
+					Score: 1
 
+					<br>
 					<br>
 					Design Rationale: When I first visualized this data, I used a map format, which worked well in showing that Kansas had a high proportion of out-of-state abortions. 
 					It also highlighted that Missouri had a relatively low number, suggesting that many Missouri residents likely traveled to Kansas for abortions since they are neighboring states.
@@ -101,9 +107,11 @@
 					Design Decision 4: I chose to label the bar for Kansas with a quantitative comparison metric
 
 					<br>
+					<br>
 
-					Score: 1.5
+					Score: 0.5
 
+					<br>
 					<br>
 					Design Rationale: 
 					While I meant to use the visualization styles and techniques already mentioned above to highlight and quantify Kansas's impact, I also wanted to include this information in words and label the bar chart to draw the viewers eyes to this important piece of informaiton.
@@ -141,32 +149,66 @@
 
 			<ul>
 				<li>
-					Design Decision 1: 
+					Design Decision 1: I decided to transform the data by summing the total number of publicly funded abortions in the state and then taking the inverse of that value plus one. 
 
+					<br>
+					<br>
+
+					Score: -1.5
+
+					<br>
+					<br>
+					Design Rationale: Initially, I simply summed the total number of publicly funded abortions in each state and plotted the results. 
+					However, I quickly realized that California stood out dramatically with 88,466 public abortions, while the second-highest state, New York, had almost half that number at 45,722. 
+					After New York, the rest of the states had significantly lower figures, often only in the thousands or even fewer.
+					As a result, in the original visualization, California and New York appeared overwhelmingly blue, while every other state was barely visible in a pale green. 
+					Upon further analysis, I also noticed that several states—especially in the Midwest—reported funding zero abortions. 
+					The gap between zero and 90,000 is huge, and I wanted a metric that could make these figures more comparable.
+					I considered using a logarithmic transformation, which worked well for scaling large numbers to be on par with smaller ones. 
+					However, it didn't effectively distinguish between smaller values. 
+					For example, I felt there was a significant difference between funding 3 abortions versus none, but the difference between 80,000 and 80,003 seemed negligible, and this nuance wasn't captured in the logarithmic scale.
+					I instead tried an inverse transformation, adding one to the sum to avoid undefined values when the number of abortions was zero.
+					This approach produced the chart above, which I believe worked well in highlighting the Midwest as an area with fewer publicly funded abortions.
+				</li>
+				<li>
+					Design Decision 2: I labeled the axis for coloring in a way that might be somewhat deceptive but was more understandable then explaining the actual metric.
+
+					<br>
+					<br>
+
+					Score: -1.75
+
+					<br>
+					<br>
+					Design Rationale: TThe metric for the inverse of publicly funded abortions may be difficult for the average viewer to understand. 
+					To simplify this, I labeled the scale from 0 to the highest value, which was around 90,000 (California). 
+					Readers are generally used to seeing 0 on the left and larger values on the right, so I adjusted the scale to align with this convention. 
+					I placed the darker color on the left and the lighter color on the right, even though, in the actual inverse scale, the values closer to 0 are larger, and those farther from 0 are much smaller.					This is because the darker blue stands out more than the lighter green, and since the main point is about the midwest states not publicly funding abortions, I wanted to highlight this.
+					While the numbers on the scale don't directly represent the actual figures, I included the actual transformation in the description beneath the visualization for those who are more scientifically inclined.
+					Overall, this approach effectively highlighted the states with zero cases, but it could be misleading at first glance. A more intuitive labeling of the metric might have made the data more immediately interpretable for viewers.
+				</li>
+				<li>
+					Design Decision 3: 
+
+					<br>
 					<br>
 
 					Score: 2
 
+					<br>
 					<br>
 					Design Rationale:
 				</li>
-				<li>
-					Design Decision 1: 
 
+				<li>
+					Design Decision 4: 
+
+					<br>
 					<br>
 
 					Score: 2
 
 					<br>
-					Design Rationale:
-				</li>
-				<li>
-					Design Decision 1: 
-
-					<br>
-
-					Score: 2
-
 					<br>
 					Design Rationale:
 				</li>
