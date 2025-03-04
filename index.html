@@ -26,11 +26,16 @@
       <figure>
 				<img src="for.png" alt="" style="max-width: 100%; height: auto;" />
 				<figcaption>
+
+					<br>
+
 					Source: Abortion Data by U.S. State from the Guttmacher Institute. The Guttmacher Institute is a research and policy organization committed to advancing sexual and reproductive health and rights. They maintain a variety of global data related to global reproductive rights. This data set contains data about abortion rates, abortion providers, and abortion seekers, aggregated to the state level.
 				
 					<br>
 
-					Kansas leads the nation in abortions for out of state residents. This chart captures the ratio of abortions by the state of occurence divided by the abortions by state of residence. This means that if the number of abortions for state of occurence is greater than that for the state of residence, this state is conducting a larger number of abortions for out of state residents. 
+					<br>
+
+					Kansas leads the nation in abortions for out of state residents. This chart captures the ratio of abortions by the state of occurence divided by the abortions by state of residence in 2020. This means that if the number of abortions for state of occurence is greater than that for the state of residence, this state is conducting a larger number of abortions for out of state residents. 
 				</figcaption>
 			</figure>
 
@@ -39,9 +44,75 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li>
+					Design Decision 1: I chose to transform the data and plot the sum of the number of abortions by state of occurence divided by the sum of the number of abortions by state of residence.
+
+					<br>
+
+					Score: 1.5
+
+					<br>
+					Design Rationale: Initially, when analyzing metrics like the total number of abortions or different levels, it was clear that California had the highest abortion numbers by a significant margin compared to other states. In graphics, California often dominated the view, overshadowing insights about other states due to its sheer volume in population and number of abortions.
+
+					Therefore, I knew that I wanted to transform the data to draw more meaningful insights. 
+					Looking at the available metrics, I thought it would be important to look into which states were conducting the most abortions for out of state residents, since I see this as a metric indicating support towards abortion.
+					What worked well for this metric was that Kansas distinctly stood out and had twice as many out of state abortions for out of state residents compared to the average number. 
+					The District of Columbia is the only state that even comes close to this number, with all other states much closer to the average or significantly below.
+					This makes the statement even more persuasive because Kansas stands out for its support in helping with out of state abortions compared to other states.
+					I originally considered the alternate of switching the two parts of the fraction to divide the sum of the number of abortions by state of residence by the sum of the number of abortions by state of occurence.
+					This would highlight states, like Missouri and Wyoming, that cause residents to travel for abortions.
+					The reason I did not choose this measure was because this would mean either I must find evidence suggesting that Missouri and Wyoming are supportive of abortion for my countervisual, or I would be highlighting the states with the least values.
+					In general, as a viewer, I tend to be drawn to larger bars in charts. To emphasize Kansas's significant role, I chose the transformation that best allowed it to stand out.
+
+				</li>
+				<li>
+					Design Decision 2: I chose to include an "average" line which represented the average ratio of abortions from out of state vs in state residents
+
+					<br>
+
+					Score: 2
+
+					<br>
+					Design Rationale: I wanted to include a metric that would allow viewers to easily compare Kansas's data.
+					It is clear from the ordering of the bar graph that Kansas has the highest ratio of out of state residents who come to get an abortion, but the extent to which this is true is difficult to gauge without a comparison metric.
+					Initially, I added an average line, but it didn't stand out as much as I hoped. I then changed its color to red, but that felt too bright and drew attention away from the key point I wanted to highlight.
+					After trying a few combinations, I settled on a greyish line with light gray shading under the line to indicate that all states that fell under the line were below average and all states above the line were above average.
+					This highlighted the extent to which Kansas conducted out of state abortions, as the bar for Kansas was almost twice the height of the average line. I think this overall worked well because it showed increased support for the proposition that Kansas supports abortion
+				</li>
+				<li>
+					Design Decision 3: I chose to display the data as an ordered bar chart
+
+					<br>
+
+					Score: 1.5
+
+					<br>
+					Design Rationale: When I first visualized this data, I used a map format, which worked well in showing that Kansas had a high proportion of out-of-state abortions. 
+					It also highlighted that Missouri had a relatively low number, suggesting that many Missouri residents likely traveled to Kansas for abortions since they are neighboring states.
+					This is an insight that is somewhat lost in the current visualization.
+					While interesting, I felt it wasn't the most crucial takeaway for this chart, and other visualizations might better support the key points I wanted to communicate about Kansas specifically.
+					The map visualization, though effective in some ways, made it harder to quantify how much Kansas stood out compared to other states. 
+					In contrast, the current bar chart makes it much easier to visually grasp the extent to which Kansas surpasses other states, which is why I opted for this version.
+					I also considered using a scatterplot, but like with the maps chart, I felt that simply placing a point on the mark wouldn't effectively convey the significant difference in out-of-state abortions. 
+					In contrast, a bar chart clearly shows this disparity, as the bar extends all the way to the top, visually demonstrating that the area occupied by out-of-state abortions is nearly double that of other states.
+				</li>
+
+				<li>
+					Design Decision 4: I chose to label the bar for Kansas with a quantitative comparison metric
+
+					<br>
+
+					Score: 1.5
+
+					<br>
+					Design Rationale: 
+					While I meant to use the visualization styles and techniques already mentioned above to highlight and quantify Kansas's impact, I also wanted to include this information in words and label the bar chart to draw the viewers eyes to this important piece of informaiton.
+					Otherwise, if the viewers did not read the title and only looked at the graph, they might be confused as to whether I am trying to highlight that Kansas out of state abortion rate is high or Missouri low. 
+					Ideally, I would have also changed the color of Kansas's bar to further draw attention to the state. However, I was uncertain whether this might be too overwhelming and potentially raise questions about the chart's reliability.
+					Instead, I chose label the bar and highlight the box around this label in red since red as a color stands out and the rest of the visualization uses cool tones. 
+					This overall worked well because the graph now not only visually quantifies the value, but also explicitly quantifies it, which supports the main proposition that Kansas supports abortions. 
+				
+				</li>
 			</ul>
     </section>
 
@@ -51,8 +122,12 @@
       <figure>
 				<img src="against.png" alt="" style="max-width: 100%; height: auto;" />
 				<figcaption>
+					<br>
+
 					Source: Abortion Data by U.S. State from the Guttmacher Institute. The Guttmacher Institute is a research and policy organization committed to advancing sexual and reproductive health and rights. They maintain a variety of global data related to global reproductive rights. This data set contains data about abortion rates, abortion providers, and abortion seekers, aggregated to the state level.
 					
+					<br>
+
 					<br>
 
 					States near the midwest of the US provide the least support towards abortion. This chart captures the number of publicly funded abortions in 2010. We plot the values on an inverse scale to highlight the states which provide the least support. 
@@ -65,9 +140,36 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li>
+					Design Decision 1: 
+
+					<br>
+
+					Score: 2
+
+					<br>
+					Design Rationale:
+				</li>
+				<li>
+					Design Decision 1: 
+
+					<br>
+
+					Score: 2
+
+					<br>
+					Design Rationale:
+				</li>
+				<li>
+					Design Decision 1: 
+
+					<br>
+
+					Score: 2
+
+					<br>
+					Design Rationale:
+				</li>
 			</ul>
     </section>
 
