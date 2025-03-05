@@ -180,7 +180,7 @@
 
 					<br>
 					<br>
-					Design Rationale: TThe metric for the inverse of publicly funded abortions may be difficult for the average viewer to understand. 
+					Design Rationale: The metric for the inverse of publicly funded abortions may be difficult for the average viewer to understand. 
 					To simplify this, I labeled the scale from 0 to the highest value, which was around 90,000 (California). 
 					Readers are generally used to seeing 0 on the left and larger values on the right, so I adjusted the scale to align with this convention. 
 					I placed the darker color on the left and the lighter color on the right, even though, in the actual inverse scale, the values closer to 0 are larger, and those farther from 0 are much smaller.					This is because the darker blue stands out more than the lighter green, and since the main point is about the midwest states not publicly funding abortions, I wanted to highlight this.
@@ -188,29 +188,45 @@
 					Overall, this approach effectively highlighted the states with zero cases, but it could be misleading at first glance. A more intuitive labeling of the metric might have made the data more immediately interpretable for viewers.
 				</li>
 				<li>
-					Design Decision 3: 
+					Design Decision 3: I labeled the number of abortions funded by Kansas and the number of abortions funded by California to draw attention to these two states.
 
 					<br>
 					<br>
 
-					Score: 2
+					Score: -2
 
 					<br>
 					<br>
-					Design Rationale:
+					Design Rationale: Since the proposition I am trying to disprove is that Kansas supports abortion, I highlighted Kansas as the state with 0 abortions. 
+					Without this distinction, Kansas could easily blend in with the other states, making it difficult for viewers to remember which state it is. 
+					To provide contrast, I chose California, the state with the highest number of publicly funded abortions.
+					While this choice is somewhat misleading, given that California's numbers are extreme compared to other states, it effectively highlights the contrast between Kansas and California. 
+					What worked well was emphasizing these two states and explicitly quantifying their values, allowing for a more meaningful comparison at the state level rather than a broader, less detailed one.
+					Additionally, surrounding the outside of the box with a red border helped it stand out in contrast to the cooler blue tones used for shading.
+					However, to make the graphic less misleading, it would have been better to include other states alongside California, rather than just relying on the extremes. 
+					For example, Alabama had only 9 publicly funded abortions, but it was shaded similarly to California, which may cause confusion.
+					Ultimately, I chose this approach to emphasize the quantitative difference between Kansas and other Midwest states, and I felt that California, with its exaggerated numbers, best highlighted this contrast.
 				</li>
 
 				<li>
-					Design Decision 4: 
+					Design Decision 4: I choose to display the data in a map format.
 
 					<br>
 					<br>
 
-					Score: 2
+					Score: 1.5
 
 					<br>
 					<br>
-					Design Rationale:
+					Design Rationale: I noticed that many states had 0 publicly funded abortions. 
+					Upon examining these states, I found that a significant number were located in the Midwest and South. 
+					While I could have highlighted individual states using a bar chart, similar to my first visualization, that approach would have lost the context of how these states are clustered together.
+					Although this information isn't central to the argument that Kansas does not support publicly funded abortions, it strengthens the claim by showing that Kansas is situated in a region where publicly funded abortions are largely absent. 
+					Moreover, using a bar chart would result in all these states being tied with a 0 value, meaning no bars would appear. 
+					This would make it difficult for viewers to grasp the intended message, as our attention is naturally drawn to larger, more prominent bars, and without bars, the data would be less impactful.
+					Additionally, the inverted scale wouldn't work with a bar chart, as it would imply that states with the fewest abortions should have the largest bars, which would be confusing.
+					Ultimately, I chose to use a map format for this graphic because it effectively shows that Kansas is similar to neighboring states like Missouri, which also seem the least supportive of abortion in their regions. 
+					The map highlights Kansas more effectively than a bar chart could, particularly since a bar for zero would be nonexistent in that format.
 				</li>
 			</ul>
     </section>
@@ -218,7 +234,26 @@
     <section>
       <h2>Final Reflection</h2>
 
-      <p>[WRITE FINAL REFLECTION PARAGRAPHS HERE.]</p>
+      <p> Reflecting on the overall design process across both visualizations, the challenge was in striking a balance between highlighting the key message while maintaining clarity and accuracy. 
+		  The process was somewhat straightforward when deciding on metrics, like the number of out-of-state abortions or the inverse transformation of publicly funded abortions, as they supported the argument I wanted to convey. 
+		  However, translating this data into a compelling visual that would communicate these insights to viewers was somewhat difficult. 
+		  I was surprised by how important small adjustments—like changing color schemes, adding labels, or switching between formats—were in improving the viewer's understanding. 
+		  For example, switching from a map format to a bar chart made it easier for viewers to grasp the quantitative difference between states, and choosing a simple labeling strategy helped draw attention to Kansas without overwhelming the viewer.
+		  Additionally, it was difficult to accurate communicate translated metrics in a way which was easy for the viewer to interpret upon first glance.
+		  What surprised me was how easily the data could be manipulated, and how many opportunities there were throughout the process to shape its presentation. 
+		  For instance, the data can be influenced through transformations, axis representation, scaling, and even by selectively highlighting certain points to emphasize a particular message. 
+		  This assignment made me realize the importance of examining data holistically, rather than focusing solely on the information that the visualization is trying to highlight or communicate.
+		  <br>
+		  <br>
+
+		  My definition of "ethical analysis and visualization" emphasizes transparency and visual choices which make the design choices clear without trying to mislead viewers. 
+		  This means that "acceptable" persuasive choices should prioritize clear communication of the what the data is actually saying, while "misleading" choices would manipulate or distort the data to communicate their intended message. 
+		  For instance, when I used a transformation to better highlight Kansas's role in out-of-state abortions, this is considered acceptable because it emphasizes the data's key point without misrepresenting it. 
+		  On the other hand, presenting California as a comparison and having it the same color as Alabama, or mislabeling the exact measurement/translation, would be considered more misleading. 
+		  One hard boundary I would draw would be that the axis must actually state what the data represents, not something which is similar to what the data represents. 
+		  The boundary between persuasive and misleading is nuanced, but it ultimately lies in how faithfully the visual maintains the integrity of the data while effectively communicating the intended message.
+
+	  </p>
     </section>
 	</main>
 </body>
